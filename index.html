@@ -9,14 +9,14 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-image: url('https://i.imgflip.com/3vzejp.jpg');
+            background-image: url('https://static.wikia.nocookie.net/shrek/images/6/66/Farquaad.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
             color: #fff;
         }
         
-        /* Overlay to make content more legible */
+        /* Dark Overlay to make text legible */
         body::before {
             content: '';
             position: fixed;
@@ -24,7 +24,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.5); /* Adjust the transparency for legibility */
+            background: rgba(0, 0, 0, 0.6); /* Transparent black overlay */
             z-index: -1;
         }
 
@@ -33,7 +33,15 @@
             text-align: center;
             font-size: 36px;
             margin: 20px 0;
-            color: #f4d35e; /* Yellowish color for a dank look */
+            color: #f4d35e; /* Yellowish color */
+        }
+
+        /* Work in progress text */
+        .work-in-progress {
+            text-align: center;
+            font-size: 14px;
+            color: #ccc;
+            margin-bottom: 20px;
         }
 
         /* Layout for quadrants */
@@ -57,7 +65,7 @@
         .quadrant h2 {
             font-size: 18px;
             margin-bottom: 10px;
-            color: #f4d35e; /* Keep a similar color for all headings */
+            color: #f4d35e;
         }
 
         .quadrant a {
@@ -72,7 +80,15 @@
         /* Style for smaller text */
         .small-text {
             font-size: 14px;
-            color: #ccc; /* Lighter text for small descriptions */
+            color: #ccc;
+        }
+
+        /* Thumbnail for Music Video */
+        .thumbnail {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
         }
 
         /* Add some margin to the bottom of the page */
@@ -86,38 +102,13 @@
     <!-- Title of the Page -->
     <h1>Aidan's Epic Website</h1>
 
+    <!-- Work in Progress Note -->
+    <div class="work-in-progress">Work in progress</div>
+
     <!-- Quadrants Layout -->
     <div class="container">
 
         <!-- Quadrant 1 -->
         <div class="quadrant">
-            <h2>If you’re interested in doing something about climate change, get involved with the Sunrise Movement! <a href="https://www.sunrisemovement.org/" target="_blank">[Sunrise Movement Link]</a></h2>
-            <p class="small-text">You can always message me on Instagram <a href="https://www.instagram.com/aengel8" target="_blank">@aengel8</a> if you want help getting involved.</p>
-        </div>
-
-        <!-- Quadrant 2 -->
-        <div class="quadrant">
-            <h2>Music vid of the day:</h2>
-            <p><a href="https://www.youtube.com/watch?v=SiARr9JhLEo" target="_blank">Watch Now</a></p>
-        </div>
-
-        <!-- Quadrant 3 -->
-        <div class="quadrant">
-            <h2>Educational resources about the climate crisis that aren’t horseshit</h2>
-            <!-- You can add more links or content here later -->
-        </div>
-
-        <!-- Placeholder for Quadrant 4 (for future content) -->
-        <div class="quadrant">
-            <h2>Coming soon...</h2>
-        </div>
-
-    </div>
-
-    <!-- Footer -->
-    <footer>
-        <p style="text-align: center; color: #777;">Website powered by dank memes</p>
-    </footer>
-
-</body>
-</html>
+            <h2>If you’re interested in doing something about climate change, get involved with the Sunrise Movement!<br>
+            <a href="https://www.sunrisemovement.org/" target="_blan
