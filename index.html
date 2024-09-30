@@ -3,34 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aidan's Link Collection</title>
+    <title>Aidan's Epic Website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
         }
-        .link-section {
-            margin-bottom: 20px;
+        
+        /* Centered Title */
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin: 20px 0;
+            color: #333;
         }
-        .link-title {
-            font-weight: bold;
+
+        /* Layout for quadrants */
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
         }
-        .link-comment {
-            color: gray;
-            font-style: italic;
+
+        .quadrant {
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .quadrant h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .quadrant a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+
+        .quadrant a:hover {
+            text-decoration: underline;
+        }
+
+        /* Style for smaller text */
+        .small-text {
+            font-size: 14px;
+            color: #777;
         }
     </style>
 </head>
 <body>
-    <h1>Aidan's Favorite Links</h1>
 
-    <!-- Existing links you want to display -->
-    <div class="link-section">
-        <p class="link-title">
-            <a href="https://example.com" target="_blank">Example Website</a>
-        </p>
-        <p class="link-comment">This is a great resource for learning about web development.</p>
+    <!-- Title of the Page -->
+    <h1>Aidan's Epic Website</h1>
+
+    <!-- Quadrants Layout -->
+    <div class="container">
+
+        <!-- Quadrant 1 -->
+        <div class="quadrant">
+            <h2>If you’re interested in doing something about climate change, get involved with the Sunrise Movement! <a href="#">[link]</a></h2>
+            <p class="small-text">You can always message me on Instagram <a href="https://www.instagram.com/aengel8" target="_blank">@aengel8</a> if you want help getting involved.</p>
+        </div>
+
+        <!-- Quadrant 2 -->
+        <div class="quadrant">
+            <h2>Music vid of the day:</h2>
+            <p><a href="#">[link for music video]</a></p>
+        </div>
+
+        <!-- Quadrant 3 -->
+        <div class="quadrant">
+            <h2>Educational resources about the climate crisis that aren’t horseshit</h2>
+        </div>
+
+        <!-- Placeholder for Quadrant 4 (for future content) -->
+        <div class="quadrant">
+            <h2>Coming soon...</h2>
+        </div>
+
     </div>
 
-    <div class="link-section">
-        <p class="link-title
+</body>
+</html>
